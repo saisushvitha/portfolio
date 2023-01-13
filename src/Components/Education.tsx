@@ -63,6 +63,29 @@ return(
       </div>
 
    </div> 
+
+
+   <div className ="timeline-block">
+
+         <div className ="timeline-ico">
+            <i className ="fa fa-graduation-cap"></i>
+         </div>
+
+         <div className ="timeline-header">
+            <h3> Technology Entrepreneurship Program </h3>
+            <p>Sept 2021 - April 2023</p>
+         </div>
+
+         <div className ="timeline-content">
+            <h4><a href="https://www.isb.edu/en.html" target="_blank">Indian School Of Business</a></h4>
+            <p>
+          This is a program that was been introduced by Telangana government in India. I was selected to be a student ambassdor from my college
+          in ISB(Indian School of Business). This program gave exposure to Design Thinking methods and processes and supported in access to online training 
+          sessions from world-renowned experts in management and entrepreneurship. 
+         </p>
+         </div>
+
+      </div> 
    
    
       <div className ="timeline-block">
