@@ -73,7 +73,7 @@ return(
 
          <div className ="timeline-header">
             <h3> Technology Entrepreneurship Program </h3>
-            <p>Sept 2021 - April 2023</p>
+            <p>June 2017 - April 2019</p>
          </div>
 
          <div className ="timeline-content">
