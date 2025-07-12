@@ -1,6 +1,7 @@
 import Chart from "react-google-charts";
+import resumeData from "../resumeData";
 
-const About = (props : any) =>{
+const About = () =>{
   
     return(
    
@@ -14,7 +15,7 @@ const About = (props : any) =>{
 <div className="col-lg-8">
       <p>
           {
-               props.resumeData.aboutme
+               resumeData.aboutme
              }
       </p>
 
