@@ -1,5 +1,4 @@
 
-import resumeData from '../resumeData';
 import About from './About';
 import ContactUs from './ContactUs';
 

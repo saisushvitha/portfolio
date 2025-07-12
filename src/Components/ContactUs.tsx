@@ -1,7 +1,6 @@
 import emailjs from 'emailjs-com';
-import { SMTPClient } from "smtp-client";
 import React, { useState, useEffect, useRef } from 'react';
-import ReactDOM from "react-dom";
+
 export interface FormData {
   name : string;
   email : string;

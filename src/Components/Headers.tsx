@@ -1,6 +1,5 @@
 import React from "react";
 import resumeData from "../resumeData";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const Headers = () => {
 return (
