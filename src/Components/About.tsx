@@ -1,4 +1,4 @@
-import Chart from "react-google-charts";
+
 import resumeData from "../resumeData";
 
 const About = () =>{

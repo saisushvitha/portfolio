@@ -1,5 +1,5 @@
 import emailjs from 'emailjs-com';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 
 export interface FormData {
   name : string;
@@ -13,15 +13,14 @@ const ContactUs = () => {
     email: '',
     message: '',
   });  
-  const handleChange = (event :any) => {
-    setFormData({
-      ...formData,
-      [event.target.name]: event.target.checked || event.target.value,
-      [event.target.email]: event.target.checked || event.target.value,
-      [event.target.message]: event.target.checked || event.target.value,
-    });
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = event.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value,
+    }));
   };
-
+  
   
   const form = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -41,7 +40,7 @@ const ContactUs = () => {
         <div className="contact-wrapper">
       
       
-          <form ref={form} id="contact-form" className="form-horizontal" role="form" onSubmit={event => handleSubmit(event)} >
+          <form ref={form} id="contact-form" className="form-horizontal" onSubmit={event => handleSubmit(event)} >
           {/* method="post" */}
             <div className="form-group">
               <div className="col-sm-12">
