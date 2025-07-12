@@ -7,14 +7,13 @@ return (
   <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+          <a className="mobile-btn" href="#!" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
                <li><a className="smoothscroll" href="#skills">Skills</a></li>
              <li><a className="smoothscroll" href="#education">Education</a></li>
                <li><a className="smoothscroll" href="#work">Work Experience</a></li>
-               {/* <li><a className="smoothscroll" href="#testimonials">Personal Projects</a></li> */}
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
@@ -30,12 +29,12 @@ return (
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank" rel="noreferrer" title={item.name}><i className={item.className}></i></a>
                               </li>
                             )
                           }
                     )
-                  }
+                  } 
                </ul>
             </div>
          </div>
