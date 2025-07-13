@@ -1058,7 +1058,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	max-width: 980px;
 } */
 #education {
-   background: #fff;
+   background: #EDEAE0;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -1235,7 +1235,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Works ------------ */
 
 #work {
-   background: #EDEAE0;;
+   background: #fff;;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -1405,4 +1405,46 @@ footer .social-links li:first-child { margin-left: 0; }
 	}
 }
 
+/* Certifications Section */
+.certifications-section {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.certifications-section h2 {
+  font-family: 'opensans-bold', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.certification-item {
+   text-align: center;
+   padding: 20px;
+ }
+ 
+ .certification-image {
+   max-width: 200px;
+   margin: 0 auto;
+   display: block;
+ }
+
+.certification-item p {
+  font-family: 'opensans-regular', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.certification-item {
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ .certification-image {
+   max-width: 150px;
+   height: auto;
+   margin: 0 auto 10px;
+ }
+ 
 

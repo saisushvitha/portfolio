@@ -7,6 +7,7 @@ import Headers from './Headers';
 import Education from './Education';
 import Works from './Works';
 import Skills from './Skills';
+import Certifications from './Certifications';
 
 
 
@@ -18,6 +19,7 @@ return (
     <Headers/>
     <About/>
     <Skills/>
+    <Certifications/>
     <Education />
     <Works/>
      <ContactUs/> 

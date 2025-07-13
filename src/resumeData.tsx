@@ -137,6 +137,14 @@ let resumeData = {
     ],
     "workDetails": [
       {
+        title: "Programmer Analyst",
+        date: "May 2023 - present",
+        company: "Maximus Canada",
+        companyLink: "https://www.maximuscanada.ca/",
+        description:
+          "This is my first job in Canada, and it has been a significant step forward in my career. Joining Maximus gave me the opportunity to work on modernization initiatives, primarily focused on migrating legacy applications to modern frameworks like Next.js. This role has accelerated my growth by exposing me to cutting-edge healthcare standards such as HL7 and FHIR, as well as technologies like RabbitMQ, Docker, and Azure DevOps. This experience has helped me expand on the solid foundation I built at Virtusa, allowing me to deepen my technical skill set and adaptability in complex, real-world healthcare environments",
+      },
+      {
         title: "Customer Service Representative (part-time)",
         date: "June 2022 - present",
         company: "NTT Data",
@@ -176,6 +184,20 @@ let resumeData = {
         description:
           "Best place to train on IoT, Big Data, and Game Development. I have done my internship here and developed projects using Hadoop, MapReduce, etc., for my mini-project, which was part of my curriculum.",
       },
+    ],
+    "certifications": [
+      {
+        image: "oracle.png",
+        title: "Oracle Certified Java Programmer",
+      },
+      {
+        image: "db.png",
+        title: "Microsoft Fundamentals Certification",
+      },
+      {
+        image: "azure.png",
+        title: "Microsoft Azure Fundamentals",
+      }
     ]
   }
   
