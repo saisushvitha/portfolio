@@ -1424,9 +1424,11 @@ footer .social-links li:first-child { margin-left: 0; }
  }
  
  .certification-image {
-   max-width: 200px;
-   margin: 0 auto;
-   display: block;
+   max-width: 500px;
+   height: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
  }
 
 .certification-item p {
@@ -1441,10 +1443,5 @@ footer .social-links li:first-child { margin-left: 0; }
    text-align: center;
  }
  
- .certification-image {
-   max-width: 150px;
-   height: auto;
-   margin: 0 auto 10px;
- }
  
 
